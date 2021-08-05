@@ -7,11 +7,16 @@ You only need python 3 on your machine and correctly configure the IP address an
 # In exploit.py:
 You only need python 3 on your machine and correctly configure the IP address and the port and create a pattern with the necessary characters. In this case it is 100, but you must modify it with the value you need (look for the fields called change me).
 
+# In bytearray.py:
+You can use this script to generate a byte array like you do with mona (! Mona bytearray -b "\ x00").
+
 # The way to execute this scripts is simple:
 
 python3 fuzzer.py 
 or 
-python3 fuzzer.py
+python3 exploit.py
+or
+python3 bytearray.py
 
 ---------------------------------------------------------------------------
 
