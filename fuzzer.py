@@ -2,9 +2,9 @@
 
 import socket, time, sys
 
-ip = "10.10.25.41" # Change this
+ip = "10.10.25.41" # Change me
 
-port = 1337 # Change this
+port = 1337 # Change me
 timeout = 5
 prefix = "CULO " # Change this with the vulnerable parameter (Ex: TRUN, on VulnServer)
 
